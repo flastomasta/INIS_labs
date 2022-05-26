@@ -1,1 +1,208 @@
 /* Your Code Here */
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+html{
+    background-color: #1e3552;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.header-logo{
+    max-width: 130px;
+    max-height: 100px;
+}
+
+.header-name{
+    font-size: 50px;
+    text-align: center;
+    color: #1e3552;
+}
+
+.logo-img{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    padding-bottom: 16px;
+    padding-top: 16px;
+    background-color: #727aff;
+}
+
+
+footer{
+    padding: 4px 4px;
+    background-color: #1e3552;
+    /*background-image: linear-gradient(to right,darkkhaki, paleturquoise);*/
+}
+
+.button{
+    display: inline;
+    padding: 3px 3px;
+    background-color: #1e3552;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    margin: 10px 10px;
+    color: white;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+ul.list li{
+    display: inline;
+    margin-left: 40px;
+    margin-right: 140px;
+}
+
+footer ul.list li{
+    display: inline;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+footer ul.list li a{
+    color: white;
+}
+.square-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.square-item{
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 500px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #1e3552;
+    border-radius: 8px;
+    color: grey;
+}
+.square-item > b{
+    color: #1e3552;
+}
+
+.shirt-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.shirt-item{
+    max-height: 300px;
+    max-width: 200px;
+    background-color: white;
+    border-style: solid;
+    border-color: #1e3552;
+    border-width: 5px;
+    border-radius: 8px;
+
+    margin:50px;
+    /*margin-left: 30px;*/
+}
+.shirt-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70%;
+    width: 100%;
+}
+.shirt-text{
+    height: 25%;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.shirt-description{
+    height: 30%;
+    width: 100%;
+}
+
+.clothe-name{
+    display: inline;
+    font-size: 30px;
+    margin: 50px 50px;
+}
+
+.shirt-name{
+    margin-left: 3px;
+    color: #1e3552;
+    font-weight: bold;
+}
+
+.shirt-small{
+    margin-left: 3px;
+    color: grey;
+    font-size: 13px;
+}
+
+#detail{
+    margin: 30px 100px 30px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-decor-text{
+    color: #1e3552;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.detail-x{
+    max-height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.detail-img{
+    width: 35%;
+    height: 35%;
+    margin-right: 30px;
+}
+.detail-text{
+    max-width: 300px;
+    color: #1e3552;
+    margin-bottom: 30px;
+}
+.detail-button{
+    padding: 6px 8px;
+    margin-right: 0;
+}
+.inline{
+    display: inline;
+}
+
+.white{
+    background-color: ghostwhite;
+    color: #1e3552;
+}
+
+.blue{
+    background-color: dodgerblue;
+    color: ghostwhite;
+}
+.red{
+    background-color: darkred;
+}
+.green{
+    background-color: darkgreen;
+}
+.yellow{
+    background-color: rgba(197,192,64,0.91);
+}
+.pink{
+    background-color: palevioletred;
+}
